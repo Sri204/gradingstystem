@@ -1,6 +1,6 @@
 const config = 
 {
-    url: 'http://localhost:2024'
+    url: 'https://backendapp-jkgo.onrender.com'
 };
 
 export default config;
