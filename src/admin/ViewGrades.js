@@ -7,7 +7,7 @@ function ViewGrades() {
 
     const fetchGrades = async () => {
         try {
-            const response = await axios.get(`http://localhost:3000/grades/${studentId}`);
+            const response = await axios.get(`http://localhost:2024/grades/${studentId}`);
             setGrades(response.data);
         } catch (error) {
             console.error('Error fetching grades:', error);
