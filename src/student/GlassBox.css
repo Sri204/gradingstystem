@@ -1,0 +1,28 @@
+.glass-box {
+    width: 300px;
+    height: 150px;
+    background: rgba(255, 255, 255, 0.2); /* Transparent white background */
+    border: 1px solid rgba(255, 255, 255, 0.4); /* Semi-transparent white border */
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .glass-box button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Styling for button hover */
+  .glass-box button:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent white */
+  }
